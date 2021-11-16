@@ -1,0 +1,112 @@
+* {
+    margin: 0;
+    padding: 0;
+    }
+
+    body {
+    font-family: sans-serif;
+    font-size: 18px;
+    color: #2c3e50;
+    line-height: 1.6;
+    }
+
+    h2, #section-d {
+        color: black;
+        text-transform: capitalize;
+        font-size: 50px;
+        text-transform: uppercase;
+    }
+
+    /* HEADER */
+    #showcase {
+    background-image: url(https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/62985276-7cef-4677-99d3-097624b302c1/d5pttru-c499b364-661c-483f-b93a-20f7f7cae84e.png/v1/fill/w_1192,h_670,q_75,strp/minecraft_shaded_grass_wallpaper_by_chrisl21-d5pttru.png?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwic3ViIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsImF1ZCI6WyJ1cm46c2VydmljZTppbWFnZS5vcGVyYXRpb25zIl0sIm9iaiI6W1t7InBhdGgiOiIvZi82Mjk4NTI3Ni03Y2VmLTQ2NzctOTlkMy0wOTc2MjRiMzAyYzEvZDVwdHRydS1jNDk5YjM2NC02NjFjLTQ4M2YtYjkzYS0yMGY3ZjdjYWU4NGUucG5nIiwid2lkdGgiOiI8PTExOTIiLCJoZWlnaHQiOiI8PTY3MCJ9XV19.fVLSYvks9NCiw5rV8cKpy-sdbontRR3GvSUQ5yYJqgY);
+    height: 800px;
+    background-size: cover;
+    background-position: top;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 0 20px;
+    }
+
+    #showcase h1{
+    text-transform: capitalize;
+    font-size: 50px;
+    color: black;
+    text-transform: uppercase;
+    }
+
+    #showcase p {
+    font-size: 20px;
+    color: black;
+    width: 80%;
+    }
+
+    #showcase .btn {
+    color: black;
+    text-decoration: none;
+    font-size: 18px;
+    border: 2px black solid;
+    border-radius: 10px;
+    padding: 5px 15px;
+    margin-top: 20px;
+    }
+
+    #showcase .btn:hover {
+    background: #596275;
+    color: white;
+    }
+
+    /* SECTION */
+    #section-a {
+    background: #303952;
+    padding: 20px;
+    text-align: center;
+    color: #ecf0f1;
+    
+    }
+    #section-b {
+    background: #303952;
+    padding: 20px;
+    text-align: center;
+    color: #ecf0f1;
+    }
+    
+
+
+    #section-e {
+        background-image: url(https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/8ae1c281-ed89-448d-871b-a2e351a6ba6f/d3l1qoj-f1b1c676-9602-4c65-bd7d-ea518fbc8b88.png?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwic3ViIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsImF1ZCI6WyJ1cm46c2VydmljZTpmaWxlLmRvd25sb2FkIl0sIm9iaiI6W1t7InBhdGgiOiIvZi84YWUxYzI4MS1lZDg5LTQ0OGQtODcxYi1hMmUzNTFhNmJhNmYvZDNsMXFvai1mMWIxYzY3Ni05NjAyLTRjNjUtYmQ3ZC1lYTUxOGZiYzhiODgucG5nIn1dXX0.ChYlYUMWvDqFfNJwGxhnAjBUhinzdpaz5kimb9erlbc);
+        padding: 40px;
+    }
+
+    iframe {
+        display: block;
+        margin: auto;
+        border-radius: 20px;
+        width: 1000px;
+        height: 500px;
+        border: none;
+    }
+
+#section-f {
+    margin: 30px;
+}
+
+#section-b .btn{
+    color: white;
+}
+
+textarea {
+    display: block;
+    border: none;
+    background-color: #f39c12;
+    padding: 10px 20px;
+    width: 50%;
+    height: 45px;
+    resize: none;
+    margin: auto;
+    text-align: center;
+}
+
