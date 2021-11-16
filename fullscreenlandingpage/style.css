@@ -1,0 +1,91 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: sans-serif;
+    font-size: 18px;
+    color: #2c3e50;
+    line-height: 1.6;
+
+}
+
+/* HEADER */
+#showcase {
+    background-image: url(https://cdn.pixabay.com/photo/2016/06/02/02/33/triangles-1430105__340.png);
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 0 20px;
+}
+
+#showcase h1 {
+    text-transform: capitalize;
+    font-size: 50px;
+    color: white;
+}
+
+#showcase p {
+    font-size: 20px;
+    color: white;
+    width: 80%;
+}
+
+#showcase .btn {
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+    border: 2px white solid;
+    border-radius: 10px;
+    padding: 5px 15px;
+    margin-top: 20px;
+}
+
+#showcase .btn:hover {
+    background: blueviolet;
+    color: white;
+}
+
+/* SECTION */
+#section-a {
+    background: orange;
+    padding: 20px;
+    text-align: center;
+    color: white;
+}
+
+#section-b {
+    background: red;
+    padding: 20px;
+    text-align: center;
+    color: white;
+}
+#section-c {
+    display: flex;
+}
+
+#section-c div {
+    padding: 20px;
+    text-align: center;
+}
+
+#section-c .box-1 {
+    background: pink;
+    color: white;
+}
+
+#section-c .box-2 {
+    background: green;
+    color: white;
+}
+
+#section-c .box-3 {
+    background: brown;
+    color: white;
+}
