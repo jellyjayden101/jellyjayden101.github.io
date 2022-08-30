@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- BOOT STRAP -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.1.3/dist/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <!-- FONT AWESOME -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css" integrity="sha512-5A8nwdMOWrSz20fDsjczgUidUBR8liPYU+WymTZP1lmY9G6Oc7HlZv156XqnsgNUzTyMefFTcsFH/tnJE/+xBg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!-- STYLE CSS LINK -->
+    <link rel="stylesheet" href="style.css">
+    <title>Image Gallery</title>
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-lg navbar-light bg-primary">
+        <div class="container">
+            <a href="#" class="navbar-brand text-white"><i class="fa fa-picture-o" aria-hidden="true"></i> Image Gallery</a>
+            <button class="navbar-toggler bg-white" type="button" data-toggle="collapse" data-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav mr-auto">
+                    <li class="nav-item active">
+                        <a href="#" class="nav-link text-white">Home</a>
+                    </li>
+                    <li class="nav-item active">
+                        <a href="#" class="nav-link text-white">About</a>
+                    </li>
+                </ul>
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item active">
+                        <a href="#" class="nav-link text-white">Gallery</a>
+                    </li>
+                    <li class="nav-item active">
+                        <a href="#" class="nav-link text-white">Contact</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- MAIN CONTAINER -->
+    <div class="container ">
+        <!-- JUMBOTRON -->
+        <div class="jumbotron my-4">
+            <h1 class="display-4">My Image Gallery</h1>
+            <hr class="bg-primary">
+            <p class="lead">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Tenetur possimus repellendus sint. Error, cum laudantium expedita molestias dolores quam odit, totam esse maxime id natus.</p>
+            <a href="#" class="btn btn-outline-primary">Read More</a>
+        </div>
+
+        <!-- IMAGES ROW 1 -->
+        <div class="row my-2">
+            <div class="col-lg-4 col-sm-6">
+                <img src="https://cdn.pixabay.com/photo/2016/11/29/13/25/ace-1869825_960_720.jpg" alt="Cards" class="img-thumbnail">
+            </div>
+
+            <div class="col-lg-4 col-sm-6">
+                <img src="https://cdn.pixabay.com/photo/2016/07/07/16/46/dice-1502706_960_720.jpg" alt="Dice" class="img-thumbnail">
+            </div>
+
+            <div class="col-lg-4 col-sm-6">
+                <img src="https://cdn.pixabay.com/photo/2016/07/12/11/39/checkmate-1511866_960_720.jpg" alt="Chess" class="img-thumbnail">
+            </div>
+        </div>
+
+        <hr class="bg-primary">
+
+    <!-- IMAGES ROW 2 -->
+    <div class="row my-2">
+        <div class="col-lg-4 col-sm-6">
+            <img src="https://cdn.pixabay.com/photo/2014/10/14/20/24/soccer-488700__340.jpg" alt="Soccer" class="img-thumbnail">
+        </div>
+
+        <div class="col-lg-4 col-sm-6">
+            <img src="https://cdn.pixabay.com/photo/2022/05/18/15/44/apple-7205616__340.jpg" alt="Apple" class="img-thumbnail">
+        </div>
+
+        <div class="col-lg-4 col-sm-6">
+            <img src="https://cdn.pixabay.com/photo/2021/04/17/18/32/car-6186528__340.jpg" alt="Steering Wheel" class="img-thumbnail">
+        </div>
+    </div>
+
+    <hr class="bg-primary">
+
+    <!-- IMAGES ROW 2 -->
+    <div class="row my-2">
+        <div class="col-lg-4 col-sm-6">
+            <img src="https://cdn.pixabay.com/photo/2015/01/19/13/51/car-604019__340.jpg" alt="Audi" class="img-thumbnail">
+        </div>
+
+        <div class="col-lg-4 col-sm-6">
+            <img src="https://cdn.pixabay.com/photo/2014/06/04/16/36/man-362150__340.jpg" alt="Volks Wagen Beetle" class="img-thumbnail">
+        </div>
+
+        <div class="col-lg-4 col-sm-6">
+            <img src="https://cdn.pixabay.com/photo/2014/09/07/22/34/car-race-438467__340.jpg" alt="Ferrari" class="img-thumbnail">
+        </div>
+    </div>
+
+        <!-- PAGINATION -->
+        <nav>
+            <ul class="pagination">
+                <li class="page-item"><a class="page-link" href="#">&laquo;</a></li>
+                <li class="page-item active"><a class="page-link" href="#">1</a></li>
+                <li class="page-item"><a class="page-link" href="#">2</a></li>
+                <li class="page-item"><a class="page-link" href="#">3</a></li>
+                <li class="page-item"><a class="page-link" href="#">&raquo;</a></li>
+            </ul>
+        </nav>
+
+        <!-- FOOTER -->
+        <footer>
+            <div class="footer-blurb py-3 text-center rounded">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-sm-4 footer-blurb-item">
+                            <img src="https://randomuser.me/api/portraits/men/26.jpg" width="75" height="75" class="rounded-circle my-2" alt="">
+                            <h3>Louis Turner</h3>
+                            <p>louis.turner@example.com</p>
+                            <a href="#" class="btn btn-primary">Read More</a>
+                        </div>
+                        <div class="col-sm-4 footer-blurb-item">
+                            <img src="https://randomuser.me/api/portraits/men/51.jpg" width="75" height="75" class="rounded-circle my-2" alt="">
+                            <h3>Timmothy Hoffman</h3>
+                            <p>timmothy.hoffman@example.com</p>
+                            <a href="#" class="btn btn-primary">Read More</a>
+                        </div>
+                        <div class="col-sm-4 footer-blurb-item">
+                            <img src="https://randomuser.me/api/portraits/women/50.jpg" width="75" height="75" class="rounded-circle my-2" alt="">
+                            <h3>Lesa Gardner</h3>
+                            <p>lesa.gardner@example.com</p>
+                            <a href="#" class="btn btn-primary">Read More</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="copyright my-4 text-center">
+                <div class="container">
+                    <p>Copyright &copf; 2022</p>
+                </div>
+            </div>
+        </footer>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <!-- JQUERY | POPPER | JAVASCRIPT -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.14.3/dist/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.1.3/dist/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+
+</body>
+</html>
