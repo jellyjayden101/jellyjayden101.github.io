@@ -1,0 +1,98 @@
+#bg-img {
+    background: url(https://www.supercars.net/blog/wp-content/uploads/2022/09/Koenigsegg-CC850-detailling.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    min-height: 929px;
+}
+#bg-img-1 {
+    background: url(https://cdn.motor1.com/images/mgl/wmLmm/s1/koenigsegg-jesko-red-cherry-edition.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    min-height: 929px;
+}
+#bg-img-2 {
+    background: url(https://www.hdcarwallpapers.com/walls/koenigsegg_regera_4k_3-HD.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    min-height: 929px;
+}
+#bg-img-3 {
+    background: url(https://www.supercars.net/blog/wp-content/uploads/2020/10/kvc-koenigsegg-agera-xs-e1601962973798.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    min-height: 929px;
+}
+#bg-img-4 {
+    background: url(https://mainwebstorage.blob.core.windows.net/mediacontainers/styles/1920x1400/azure/2022-05/KE_OWNER_BAARD_MJ_59659_RGB-2%20123.jpg?h=b2e707d6&itok=8iaoWxWx);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    min-height: 929px;
+}
+
+.navbar {
+    text-transform: uppercase;
+}
+
+#explore-section {
+    background: url(https://mainwebstorage.blob.core.windows.net/mediacontainers/styles/1920x1000/azure/2022-08/Koenigsegg%20Gemera_02.jpg?h=19f14c2c&itok=upk2gtg_);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    height: 929px;
+}
+
+#cc850, #jesko, #regera, #agera, #ccgt {
+    margin-top: 250px;
+    margin-left: 150px;
+}
+
+.fadeInRightBig {
+    -webkit-animation-name: fadeInRightBig;
+    animation-name: fadeInRightBig;
+    -webkit-animation-duration: 1s;
+    animation-duration: 1s;
+    -webkit-animation-fill-mode: both;
+    animation-fill-mode: both;
+    }
+    @-webkit-keyframes fadeInRightBig {
+    0% {
+    opacity: 0;
+    -webkit-transform: translate3d(2000px, 0, 0);
+    transform: translate3d(2000px, 0, 0);
+    }
+    100% {
+    opacity: 1;
+    -webkit-transform: none;
+    transform: none;
+    }
+    }
+    @keyframes fadeInRightBig {
+    0% {
+    opacity: 0;
+    -webkit-transform: translate3d(2000px, 0, 0);
+    transform: translate3d(2000px, 0, 0);
+    }
+    100% {
+    opacity: 1;
+    -webkit-transform: none;
+    transform: none;
+    }
+    }
+
+nav {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    height: 80px;
+    padding: 0 100px;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    transition: 0.5s;
+}
