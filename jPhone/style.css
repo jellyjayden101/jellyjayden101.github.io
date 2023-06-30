@@ -1,0 +1,71 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300&family=Roboto:wght@400;500&display=swap');
+
+#home-pad, #home-phone, #phone-se, #ipad-pro {
+    border-bottom: 15px solid #fff;
+}
+
+#img-phone {
+    margin-left: 400px;
+}
+
+#cart {
+    text-align: center;
+}
+
+#emoji {
+    background-image: url(https://www.apple.com/au/home/images/promos/apple-tv-4k/promo_tv4k_avail__e17d9isb0vwy_medium.jpg);
+    background-repeat: no-repeat;
+}
+
+#box-border {
+    border: #fff 10px solid;
+
+}
+
+nav {
+    height: 50px;
+    background-color: black ;
+    opacity: 0.9;
+}
+
+#img-mac {
+    padding-top: 200px;
+}
+
+#img-pro {
+    margin-top: 50px;
+    margin-left: 58vh;
+}
+
+#home-pro {
+    background-color: black;
+    
+}
+
+#phone-se {
+    height: 900px;
+}
+
+#se-name {
+    margin-top: 250px;
+}
+
+#gtron {
+    margin-top: 50px;
+    margin-left: auto;
+    margin-right: auto;
+    height: 750px;
+    width: 1410px;
+    justify-content: center;
+    align-items: center;
+    background-repeat: no-repeat;
+}
+
+button {
+    cursor: pointer;
+}
+
+
+
+
+
